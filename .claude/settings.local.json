@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm audit *)",
+      "Bash(node -e ' *)",
+      "Bash(node *)",
+      "Bash(npx vitest *)",
+      "mcp__playwright",
+      "Skill(run)",
+      "Bash(curl -sf http://localhost:3000)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npx playwright *)",
+      "Bash(cd *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)"
+    ]
+  }
+}
